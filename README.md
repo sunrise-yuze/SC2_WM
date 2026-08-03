@@ -6,7 +6,7 @@
 
 *🎉 Accepted at the 43rd International Conference on Machine Learning (ICML 2026)*
 
-📄 **Paper:** [SC²-WM (ICML 2026 camera-ready, PDF)](paper/SC2-WM-ICML2026.pdf)
+📄 **Paper:** [SC²-WM (ICML 2026 camera-ready, PDF)](https://openreview.net/pdf?id=PQtwLElwdg)
 
 ---
 
@@ -223,7 +223,7 @@ Selected SC²-WM-specific arguments:
 | **SC²-WM (Ours)**   |**35.8**|**27.2**|**8.36**|
 
 
-> See the [paper](paper/SC2-WM-ICML2026.pdf) for the complete set of results.
+> See the [paper](https://openreview.net/pdf?id=PQtwLElwdg) for the complete set of results.
 
 ## Citation
 
