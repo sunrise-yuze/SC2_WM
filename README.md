@@ -6,7 +6,7 @@
 
 *🎉 Accepted at the 43rd International Conference on Machine Learning (ICML 2026)*
 
-📄 **Paper:** [SC²-WM (ICML 2026 camera-ready, PDF)](https://openreview.net/pdf?id=PQtwLElwdg)
+📄 **Paper:** [SC²-WM (ICML 2026, PDF)](http://arxiv.org/abs/2608.07548)
 
 ---
 
