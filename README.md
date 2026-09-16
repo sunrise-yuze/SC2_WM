@@ -103,14 +103,22 @@ pip install "git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/t
 
 ## Data Preparation
 
-All external assets are kept under three top-level directories: `data/`,
-`pretrained/`, `rxr_pretrained/` (plus `bert_config/` for the language
-encoders). None of the asset files are tracked in git — please download them
-from the project's release page (Google Drive link below) and drop them into
-the matching directory. The expected file names are documented inside each
-`PLACE_HERE.txt`.
+All external assets are kept under two top-level directories: `data/` and
+`pretrained/` (plus `bert_config/` for the language encoders). None of the
+asset files are tracked in git — please download them from one of the sources
+below and drop them into the matching directory. The expected file names are
+documented inside each `PLACE_HERE.txt`.
 
-**Download:** [Google Drive](https://drive.google.com/drive/folders/1BMU0QtVOymCRqYv6SukWdna7uZlwxj4T?usp=drive_link)
+**Download:**
+
+- 🤗 **HuggingFace:** [zhuyuze/SC2_WM](https://huggingface.co/zhuyuze/SC2_WM)
+- 🧩 **ModelScope:** [susetiankong/SC2_WM](https://modelscope.cn/models/susetiankong/SC2_WM)
+- ☁️ **Google Drive:** [folder](https://drive.google.com/drive/folders/1BMU0QtVOymCRqYv6SukWdna7uZlwxj4T?usp=drive_link)
+
+> The HuggingFace and ModelScope repositories host the released model weights
+> (`ViT-B-16.pt`, `checkpoints/ckpt.46600.pth`, and the `pretrained/` modules).
+> The Matterport3D scenes and the episode datasets are obtained from Google
+> Drive and their original sources.
 
 Target layout:
 
@@ -130,8 +138,7 @@ data/
 │       ├── val_seen/val_seen_guide.json.gz
 │       └── val_unseen/val_unseen_guide.json.gz
 └── checkpoints/
-    ├── ckpt.46600.pth                                # R2R fine-tuned
-    └── ckpt.45600.pth                                # RxR fine-tuned
+    └── ckpt.46600.pth                                # R2R fine-tuned
 
 pretrained/
 ├── model_step_100000.pt                              # VLN-BERT (R2R)
@@ -140,10 +147,6 @@ pretrained/
 ├── cwp_predictor.pth                                 # CWP waypoint predictor
 ├── NeRF_p16_8x8.pth                                  # NeRF module
 └── resnet18-f37072fd.pth                             # ResNet-18 backbone
-
-rxr_pretrained/
-├── ckpt.iter31100.pth
-└── mlm.sap_rxr/ckpts/model_step_90000.pt
 
 bert_config/
 ├── bert-base-uncased/      (HuggingFace: bert-base-uncased)
