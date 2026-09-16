@@ -110,7 +110,7 @@ from the project's release page (Google Drive link below) and drop them into
 the matching directory. The expected file names are documented inside each
 `PLACE_HERE.txt`.
 
-**Download:** [Google Drive](https://drive.google.com/drive/folders/1hP8oIbn6bcDA3ZNLJLV0hSAPqgFvurxl?usp=drive_link)
+**Download:** [Google Drive](https://drive.google.com/drive/folders/1BMU0QtVOymCRqYv6SukWdna7uZlwxj4T?usp=drive_link)
 
 Target layout:
 
