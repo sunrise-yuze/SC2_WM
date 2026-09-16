@@ -1,12 +1,16 @@
 # SC²-WM: A Self-Correcting World Model with Closed-Loop Feedback for Vision-and-Language Navigation in Continuous Environments
 
+<p align="center">
+  🤗 <b><a href="https://huggingface.co/zhuyuze/SC2_WM">HuggingFace</a></b>
+  &nbsp;·&nbsp;
+  🧩 <b><a href="https://modelscope.cn/models/susetiankong/SC2_WM">ModelScope</a></b>
+  &nbsp;·&nbsp;
+  📄 <b><a href="https://arxiv.org/pdf/2608.07548">Paper (PDF)</a></b>
+</p>
+
 **Xuan Yao, Yuze Zhu, Junyu Gao, Zongmeng Wang, Changsheng Xu**
 
-
-
 *🎉 Accepted at the 43rd International Conference on Machine Learning (ICML 2026)*
-
-📄 **Paper:** [SC²-WM (ICML 2026, PDF)](https://arxiv.org/pdf/2608.07548)
 
 ---
 
